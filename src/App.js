@@ -125,7 +125,7 @@ import React, { useState } from "react";
 import "./App.css";
 
 export default function App() {
-  const apiBaseUrl = "https://pdf-chat-c98d.onrender.com";
+  const apiBaseUrl = "https://pdf-chat-backend.onrender.com";
 
   const [messages, setMessages] = useState([]);
   const [isUploadOpen, setIsUploadOpen] = useState(false);
